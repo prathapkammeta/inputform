@@ -18,7 +18,13 @@ const UserTable= props=>(
 
         <td>Actions</td>
 
+        <td>
+        <button>edit</button>
+        <button>delete</button>
+        </td>
         </tr>
+
           </tbody>
 </table>
 )
+export default UserTable
